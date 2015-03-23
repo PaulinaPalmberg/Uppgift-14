@@ -41,7 +41,7 @@
 			<h2><a href="contact.php">Kontakt &#x260E;</a></h2>
 		</section>
 	</nav>
-	
+	<!--
 	<div role="main">
 		<div class="blockslider theme-default">
 			<div id="slider" class="nivoSlider">
@@ -52,7 +52,19 @@
 			</div>
 		</div>
 	</div>
-	
+	-->
+	<div class="slider-wrapper">
+		<div id="slider" class="nivoSlider">
+			<img src="images/1.png" alt="" title="Läxstuga med dig och dina kompisar" />
+			<a href="http://dev7studios.com"><img src="images/2.png" alt="" title="#htmlcaption" /></a>
+			<img src="images/3.png" alt="" title="Hjälp via email" />
+			<img src="images/4.png" alt="" title="Vi har också videolektioner" />
+		</div>
+	</div>
+	<div id="htmlcaption" class="nivo-html-caption">
+		<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+	</div>
+
 	<table class="borderless services">
 		<thead>
 			<tr>
@@ -79,9 +91,21 @@
 			</tr>
 		</tbody>
 	</table>
-	
+		
 	<footer>
 		<small>&copy; Lars Gunther och Thelin AB</small>
 	</footer>
+	<!--
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script src="scripts/jquery.nivo.slider.pack.js"></script>
+	<script>
+		$('#slider').nivoSlider();
+	</script>
+	-->
+	<script type="text/javascript">
+	$(window).load(function() {
+		$('#slider').nivoSlider();
+	});
+</script>
 </body>
 </html>
