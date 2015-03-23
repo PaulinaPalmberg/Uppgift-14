@@ -107,7 +107,9 @@
 }
 .nivo-controlNav a {
 	cursor:pointer;
+	color:#fff;
 }
 .nivo-controlNav a.active {
 	font-weight:bold;
+	color:#275e36;
 }

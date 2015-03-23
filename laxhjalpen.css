@@ -199,3 +199,15 @@ footer {
     text-decoration: underline;
     color: #FF4900;
 }
+.blockslider {
+	height: 300px;
+	margin-bottom: 20px;
+}
+.nivoSlider {
+	margin: 0 auto;
+	width: 618px;
+	height: 246px;
+}
+.nivo-caption {
+	text-align: center;
+}
